@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
+body {
+    background-color: bisque;
+}
+
+.heading {
+    text-align: center;
+}
+
+.recipte-heading { 
+    color: darkslateblue;
+    font-family: "Instrument Serif", serif;
+    font-size: 4rem;
+}
+
+.ingredients {
+border: 2px solid gray;
+width: 40%;
+margin: 1rem auto;
+}
+
+.list {
+    margin: 0 auto;
+    color: rgb(94, 90, 90);
+}
+
+
+.text {
+    color: rgb(18, 18, 126);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.instructions {
+    border: 1px solid gray;
+    width: 80%;
+    margin: 0 auto;
+    
+
+}
+
+.img {
+    margin: 0 auto;
+    border: 5px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    width: 500px;
+}
