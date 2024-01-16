@@ -12,12 +12,33 @@ body {
     color: darkslateblue;
     font-family: "Instrument Serif", serif;
     font-size: 4rem;
+    position: relative; /*top-rigft-bottom-left*/
+    animation: heading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes heading {
+    0% {top: -300px;}
+    100% {top: 0;}
 }
 
 .ingredients {
 border: 2px solid gray;
 width: 40%;
 margin: 1rem auto;
+position: relative;
+    animation: textleft;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes textleft {
+
+    0% {left: -1000px;}
+    85% {left: 20px;}
+    100% {left: 0;}
 }
 
 .list {
@@ -46,4 +67,15 @@ margin: 1rem auto;
     border-radius: 5px;
     padding: 15px;
     width: 500px;
+    position: relative;
+    animation: image;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes image {
+    0% {right: -1000px;}
+    85% {right: 20px;}
+    100% {right: 0;}
 }
